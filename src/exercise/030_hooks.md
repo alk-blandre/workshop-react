@@ -1,4 +1,4 @@
-# React hooks
+# React workshop - hooks
 
 https://reactjs.org/docs/hooks-intro.html
 

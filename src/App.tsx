@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import Basics from './exercise/011_basics';
 import Lists from './exercise/021_lists';
 import Hooks from './exercise/033_hooks';
+import Perf from './exercise/041_perf';
 
 function NavButton({
   view,
@@ -36,6 +37,7 @@ function App() {
     basics: () => <Basics />,
     lists: () => <Lists />,
     hooks: () => <Hooks />,
+    perf: () => <Perf />,
   };
 
   React.useEffect(() => {
